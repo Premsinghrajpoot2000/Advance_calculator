@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+#body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./media/math\ background.jpg');
+}
+
+.container {
+    box-shadow: 0 0 10px black;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.667);
+    padding: 10px 20px;
+}
+
+.p {
+    background-color: #e1e2e3;
+    border-top: 2px inset black;
+    border-right: 2px inset black;
+    border-left: 2px inset black;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.p2 {
+    background-color: #e1e2e3;
+    border-bottom: 2px inset black;
+    border-right: 2px inset black;
+    border-left: 2px inset black;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+@media (max-width:576px) {
+    .container{
+        width: 90%;
+    }
+}
